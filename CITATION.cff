@@ -5,6 +5,7 @@ authors:
     given-names: "Ivan"
 title: "Independent Verification of Dynamic Grid Operations: ECO STOR Bollingstedt 103.5 MW BESS"
 version: 1.0.0
+doi: "10.5281/zenodo.21135862"
 date-released: 2026-07-02
 publisher:
   name: "VolMax Studio Lab"

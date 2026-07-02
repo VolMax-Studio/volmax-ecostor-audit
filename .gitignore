@@ -15,3 +15,8 @@ __pycache__/
 env/
 venv/
 ENV/
+
+# Zenodo scripts & archives
+upload_to_zenodo.py
+update_zenodo_files.py
+*.zip

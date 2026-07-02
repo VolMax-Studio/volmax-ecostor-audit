@@ -1,4 +1,5 @@
 # ECO STOR Bollingstedt BESS Independent Verification Report
+**DOI:** [10.5281/zenodo.21135862](https://doi.org/10.5281/zenodo.21135862)  
 **Document ID:** VM-2026-00185  
 **Version:** v1.0  
 **Snapshot Date:** 2026-07-02  

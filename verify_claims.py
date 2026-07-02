@@ -401,6 +401,7 @@ def generate_markdown_report(l1_report, audit_metrics, output_path):
         top5_table += f"| {i+1} | `{dev['timestamp_utc'][:16]}` | `{dev['timestamp_local'][:16]}` | {dev['direction'].upper()} | {dev['bess_power_mw']:.3f} | {dev['allowed_power_mw']:.3f} | {dev['obligation_mw']:.3f} | **{dev['deviation_magnitude_mw']:.3f}** | {dev['taxonomy']} |\n"
         
     report_content = f"""# ECO STOR Bollingstedt BESS Independent Verification Report
+**DOI:** [10.5281/zenodo.21135862](https://doi.org/10.5281/zenodo.21135862)  
 **Document ID:** VM-2026-00185  
 **Version:** v1.0  
 **Snapshot Date:** {l1_report['snapshot_date']}  

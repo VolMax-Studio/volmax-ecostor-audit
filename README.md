@@ -1,4 +1,5 @@
 # ECO STOR Bollingstedt BESS Independent Audit (103.5 MW)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21135862.svg)](https://doi.org/10.5281/zenodo.21135862)
 
 Independent verification of dynamic grid operations and regime shift claims for the ECO STOR Bollingstedt battery storage system (BESS), conducted under the **VolMax P10 Verification Protocol**.
 
@@ -20,7 +21,7 @@ Before reviewing the audit findings, it is critical to understand the boundaries
 
 ## 📊 Core Audit Findings
 
-* **Final Report Hash (SHA-256):** `233a21ea28a932a549be868a2424b235fca83d11c6f20824e4815a6ae4563f44`
+* **Final Report Hash (SHA-256):** `fbe0ff2ceeba9ce893778418d0304418649c4949d39615e497a256f5f91202b0`
 * **ES-01 (Physical Limits):** Out of 37,912 active samples, **180 deviations** were detected (0.4748% violation rate).
   * **Taxonomic Resolution:** **151** are sub-MW night-time auxiliary load fluctuations ($\le 1.0$ MW), and **11** are pre-regime discharge exceedances occurring in June 2025.
   * **Two-Part Verdict:** **Verified with Limitations**. During the FCA regime period (July 2025 onwards), there are **zero** operational limit violations (only sub-MW noise). Multi-megawatt exceedances occur exclusively in the pre-regime period (June 2025), proving the FCA regime successfully suppressed limit violations.
