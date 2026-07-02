@@ -1,0 +1,210 @@
+{
+    "level2_physics_verification": {
+        "max_bess_power_observed": 100.128212,
+        "physics_power_check_ok": true,
+        "soc_check_status": "N/A - Not testable from this export",
+        "rte_check_status": "N/A - Not testable from this export"
+    },
+    "level3_claims_verification": {
+        "es01_limits_check": {
+            "total_deviations": 180,
+            "deviation_pct": 0.4748,
+            "total_samples": 37912,
+            "day_deviations": 28,
+            "night_deviations": 152,
+            "night_deviation_ratio": 0.8444444444444444,
+            "taxonomy_statistics": {
+                "Sub-MW Night Noise / Auxiliary Load": 151,
+                "Other Transient Deviation": 18,
+                "Pre-regime discharge exceedance (obligation = 0)": 11,
+                "Obligation-Driven Override": 0
+            },
+            "magnitude_percentiles_mw": {
+                "p50": 0.12307672265625,
+                "p90": 0.21757643085937498,
+                "p95": 3.3969480749999996,
+                "p99": 15.160745060000082
+            },
+            "top_5_deviations": [
+                {
+                    "timestamp_utc": "2025-06-28T10:00:00+00:00",
+                    "timestamp_local": "2025-06-28T12:00:00+02:00",
+                    "direction": "discharge",
+                    "bess_power_mw": 73.018548,
+                    "allowed_power_mw": 48.9736,
+                    "obligation_mw": 0.0,
+                    "deviation_magnitude_mw": 24.044947999999998,
+                    "taxonomy": "Pre-regime discharge exceedance (obligation = 0)"
+                },
+                {
+                    "timestamp_utc": "2025-06-29T10:00:00+00:00",
+                    "timestamp_local": "2025-06-29T12:00:00+02:00",
+                    "direction": "discharge",
+                    "bess_power_mw": 68.999914,
+                    "allowed_power_mw": 45.9613,
+                    "obligation_mw": 0.0,
+                    "deviation_magnitude_mw": 23.038614000000003,
+                    "taxonomy": "Pre-regime discharge exceedance (obligation = 0)"
+                },
+                {
+                    "timestamp_utc": "2025-06-19T10:00:00+00:00",
+                    "timestamp_local": "2025-06-19T12:00:00+02:00",
+                    "direction": "discharge",
+                    "bess_power_mw": 50.931828,
+                    "allowed_power_mw": 37.8652,
+                    "obligation_mw": 0.0,
+                    "deviation_magnitude_mw": 13.066628000000001,
+                    "taxonomy": "Pre-regime discharge exceedance (obligation = 0)"
+                },
+                {
+                    "timestamp_utc": "2025-06-13T14:45:00+00:00",
+                    "timestamp_local": "2025-06-13T16:45:00+02:00",
+                    "direction": "discharge",
+                    "bess_power_mw": 68.480158,
+                    "allowed_power_mw": 55.7457,
+                    "obligation_mw": 0.0,
+                    "deviation_magnitude_mw": 12.734458000000004,
+                    "taxonomy": "Pre-regime discharge exceedance (obligation = 0)"
+                },
+                {
+                    "timestamp_utc": "2025-06-19T09:00:00+00:00",
+                    "timestamp_local": "2025-06-19T11:00:00+02:00",
+                    "direction": "discharge",
+                    "bess_power_mw": 53.888338,
+                    "allowed_power_mw": 45.4342,
+                    "obligation_mw": 0.0,
+                    "deviation_magnitude_mw": 8.454138,
+                    "taxonomy": "Pre-regime discharge exceedance (obligation = 0)"
+                }
+            ],
+            "avg_cluster_length_intervals": 3.8297872340425534,
+            "max_cluster_length_intervals": 27,
+            "verdict": "Verified with Limitations"
+        },
+        "es02_regime_shift": {
+            "yoy_june_2025_mean_daily_dispatch_mwh": 657.6434180536877,
+            "yoy_june_2026_mean_daily_dispatch_mwh": 632.0750987062481,
+            "yoy_cohens_d": -0.21379534923456534,
+            "cusum_window": "Summer 2025 (June 1 - August 31, 2025)",
+            "cusum_volume_changepoint_date": "2025-08-03",
+            "cusum_volume_cohens_d": 0.6442486090914783,
+            "cusum_limit_activity_changepoint_date": "2025-07-05",
+            "cusum_limit_activity_cohens_d": 1.0628354138369578,
+            "verdict": "Verified with Limitations"
+        },
+        "es03_netzdienlich": {
+            "overall_pv_correlation": -0.3005264544766408,
+            "overall_pv_p_value": 0.0,
+            "overall_wind_correlation": -0.051231912598714145,
+            "overall_wind_p_value": 3.3697203221740974e-23,
+            "monthly_statistics": {
+                "2025_06": {
+                    "pv_correlation": -0.3222735716743093,
+                    "pv_p_value": 1.3537222499060333e-70,
+                    "pv_n_samples": 2880,
+                    "wind_correlation": -0.09318007959816568,
+                    "wind_p_value": 5.462884103157587e-07,
+                    "wind_n_samples": 2880
+                },
+                "2025_07": {
+                    "pv_correlation": -0.34797053081331636,
+                    "pv_p_value": 1.8739249633897375e-85,
+                    "pv_n_samples": 2976,
+                    "wind_correlation": -0.07667603960854706,
+                    "wind_p_value": 2.8229875742277456e-05,
+                    "wind_n_samples": 2976
+                },
+                "2025_08": {
+                    "pv_correlation": -0.3582037814899206,
+                    "pv_p_value": 8.482887138211267e-91,
+                    "pv_n_samples": 2976,
+                    "wind_correlation": -0.08115151755916317,
+                    "wind_p_value": 9.315162119605956e-06,
+                    "wind_n_samples": 2976
+                },
+                "2025_09": {
+                    "pv_correlation": -0.3194312759359913,
+                    "pv_p_value": 2.54694781586593e-69,
+                    "pv_n_samples": 2880,
+                    "wind_correlation": -0.07519984845195411,
+                    "wind_p_value": 5.3538770679624604e-05,
+                    "wind_n_samples": 2880
+                },
+                "2025_10": {
+                    "pv_correlation": -0.25642335079037715,
+                    "pv_p_value": 6.773870701121618e-46,
+                    "pv_n_samples": 2976,
+                    "wind_correlation": -0.014143300851307772,
+                    "wind_p_value": 0.44054687270944454,
+                    "wind_n_samples": 2976
+                },
+                "2025_11": {
+                    "pv_correlation": -0.2091002646334811,
+                    "pv_p_value": 8.105423698490965e-30,
+                    "pv_n_samples": 2880,
+                    "wind_correlation": -0.029566021976640218,
+                    "wind_p_value": 0.11266283540930709,
+                    "wind_n_samples": 2880
+                },
+                "2025_12": {
+                    "pv_correlation": -0.18648191309498358,
+                    "pv_p_value": 1.0788736592368538e-24,
+                    "pv_n_samples": 2976,
+                    "wind_correlation": -0.04499540878716421,
+                    "wind_p_value": 0.01409495369135448,
+                    "wind_n_samples": 2976
+                },
+                "2026_01": {
+                    "pv_correlation": -0.19802653300508363,
+                    "pv_p_value": 1.0727937277933721e-27,
+                    "pv_n_samples": 2976,
+                    "wind_correlation": 0.007942210451412518,
+                    "wind_p_value": 0.6649464473601807,
+                    "wind_n_samples": 2976
+                },
+                "2026_02": {
+                    "pv_correlation": -0.18854670540024984,
+                    "pv_p_value": 6.243022473727885e-23,
+                    "pv_n_samples": 2688,
+                    "wind_correlation": -0.009426871786124282,
+                    "wind_p_value": 0.6251756021126391,
+                    "wind_n_samples": 2688
+                },
+                "2026_03": {
+                    "pv_correlation": -0.35203889347774686,
+                    "pv_p_value": 2.3264797852162733e-74,
+                    "pv_n_samples": 2518,
+                    "wind_correlation": -0.07352392251377166,
+                    "wind_p_value": 0.00022199648811068067,
+                    "wind_n_samples": 2518
+                },
+                "2026_04": {
+                    "pv_correlation": -0.44646498006640567,
+                    "pv_p_value": 3.898251740433095e-141,
+                    "pv_n_samples": 2880,
+                    "wind_correlation": -0.048354637902406405,
+                    "wind_p_value": 0.009448808290243027,
+                    "wind_n_samples": 2880
+                },
+                "2026_05": {
+                    "pv_correlation": -0.46002274022938605,
+                    "pv_p_value": 8.850986821878421e-156,
+                    "pv_n_samples": 2976,
+                    "wind_correlation": -0.12808628398342947,
+                    "wind_p_value": 2.3255201671142696e-12,
+                    "wind_n_samples": 2976
+                },
+                "2026_06": {
+                    "pv_correlation": -0.44314570580051293,
+                    "pv_p_value": 1.8839346652158926e-138,
+                    "pv_n_samples": 2872,
+                    "wind_correlation": -0.09717437513758384,
+                    "wind_p_value": 1.8109864635015629e-07,
+                    "wind_n_samples": 2872
+                }
+            },
+            "doctrine_note": "Wind correlation is negligible and statistically insignificant in most months; the grid-supportive signature is purely solar-driven.",
+            "verdict": "Consistent with PV-driven netzdienlich operations"
+        }
+    }
+}

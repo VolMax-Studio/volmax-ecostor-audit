@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you cite this audit report or use the replication pipeline, please cite it as follows."
+authors:
+  - family-names: "Nestorov"
+    given-names: "Ivan"
+title: "Independent Verification of Dynamic Grid Operations: ECO STOR Bollingstedt 103.5 MW BESS"
+version: 1.0.0
+date-released: 2026-07-02
+publisher:
+  name: "VolMax Studio Lab"
+url: "https://speicherbetrieb.eco-stor.de"

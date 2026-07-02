@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Raw BESS Data (Proprietary)
+*.csv
+*.xlsx
+
+# Local environment / IDE
+.vscode/
+.idea/
+.venv/
+env/
+venv/
+ENV/
