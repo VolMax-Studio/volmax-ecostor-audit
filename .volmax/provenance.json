@@ -1,0 +1,27 @@
+{
+  "baseline_commit": "2a90aac95aab8dc60e64bde15781c546e07face8",
+  "baseline_tree": "5c29394905922bfba545f196744aa90252e1136b",
+  "behavior": {
+    "callbacks": false,
+    "executable": false,
+    "network_calls": false,
+    "telemetry": false
+  },
+  "canonical_url": "https://github.com/VolMax-Studio/volmax-ecostor-audit",
+  "default_branch_at_recording": "main",
+  "license": {
+    "detected_spdx": "NOASSERTION",
+    "files": [
+      "LICENSE"
+    ],
+    "note": "This provenance record does not grant or alter license rights."
+  },
+  "owner": "VolMax-Studio",
+  "record_id": "urn:volmax:github:VolMax-Studio/volmax-ecostor-audit:2a90aac95aab8dc60e64bde15781c546e07face8",
+  "record_type": "volmax.repository-provenance",
+  "record_version": 1,
+  "recorded_at": "2026-10-08T19:42:18+00:00",
+  "repository": "VolMax-Studio/volmax-ecostor-audit",
+  "schema": "urn:volmax:provenance:v1",
+  "scope": "Repository identity and baseline commit only; historical tags, releases, evidence, authorship, and existing file bytes are unchanged."
+}
